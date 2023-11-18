@@ -24,4 +24,4 @@ npm run build
 npm run lint
 ```
 
-### Ссылка на демо
+### Ссылка на демо - https://nurislamaituarov.github.io/test-game-simon/
