@@ -8,7 +8,6 @@
 </template>
 
 <script>
-import "./assets/styles/main.scss";
 import SimonGame from "./components/TheSimonGame.vue";
 export default {
   name: "App",
