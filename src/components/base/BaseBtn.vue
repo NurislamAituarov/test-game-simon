@@ -1,6 +1,6 @@
 <template>
   <button @click="$emit('start-game')" :disabled="isPlaying" class="btn">
-    Start
+    {{ name }}
   </button>
 </template>
 
@@ -9,6 +9,7 @@ export default {
   name: "BaseBtn",
   props: {
     isPlaying: { type: Boolean },
+    name: { type: String },
   },
 };
 </script>

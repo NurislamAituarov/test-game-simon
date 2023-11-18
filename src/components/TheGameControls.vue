@@ -1,7 +1,11 @@
 <template>
   <div class="controls">
     <h2 class="title">Round: {{ roundsNumber }}</h2>
-    <base-btn :is-playing="isPlaying" @start-game="$emit('start-game')" />
+    <base-btn
+      :is-playing="isPlaying"
+      @start-game="$emit('start-game')"
+      name="Start"
+    />
 
     <p v-if="!isPlaying && gameOver">
       Sorry, you lost after {{ sequence.length }} rounds!
