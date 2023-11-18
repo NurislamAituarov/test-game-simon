@@ -1,6 +1,6 @@
 <template>
   <button @click="$emit('start-game')" :disabled="isPlaying" class="btn">
-    {{ isPlaying ? "Restart" : "Start" }}
+    Start
   </button>
 </template>
 

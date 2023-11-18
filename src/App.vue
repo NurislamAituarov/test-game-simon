@@ -9,7 +9,7 @@
 
 <script>
 import "./assets/styles/main.scss";
-import SimonGame from "./components/SimonGame.vue";
+import SimonGame from "./components/TheSimonGame.vue";
 export default {
   name: "App",
   components: { SimonGame },
@@ -18,6 +18,7 @@ export default {
 
 <style lang="scss">
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+  text-align: center;
 }
 </style>
