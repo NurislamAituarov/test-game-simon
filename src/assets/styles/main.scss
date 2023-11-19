@@ -15,3 +15,9 @@ body {
   max-width: 768px;
   margin: 50px auto;
 }
+@media all and (max-width: 768px) {
+  .main {
+    margin: 20px auto;
+    padding: 0 10px;
+  }
+}

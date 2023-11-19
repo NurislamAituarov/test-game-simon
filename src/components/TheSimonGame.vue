@@ -141,5 +141,11 @@ export default {
   justify-content: center;
   gap: 50px;
 }
+@media all and (max-width: 768px) {
+  #simon-game {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
 </style>
   

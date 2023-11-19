@@ -20,4 +20,10 @@ h1 {
   margin-bottom: 60px;
   text-align: center;
 }
+
+@media all and (max-width: 768px) {
+  h1 {
+    margin-bottom: 30px;
+  }
+}
 </style>
